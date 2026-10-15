@@ -8,7 +8,8 @@ Built for a fictional robotics company using Microsoft Dataverse, Power Apps, Po
 
 ## Explore the build
 
-**[Open the screenshot slideshow →](https://cfollette18.github.io/power-platform-lab/)**  
+**[Open the screenshot slideshow →](https://cfollette18.github.io/power-platform-lab/)**
+
 [Browse all 21 screenshots](docs/evidence.md) · [Architecture and decisions](docs/architecture.md) · [Results and limitations](docs/results.md)
 
 [![Agent-created ticket verified in Dataverse](docs/screenshots/20-agent-ticket-verified.png)](https://cfollette18.github.io/power-platform-lab/#20)
