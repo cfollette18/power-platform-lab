@@ -50,15 +50,6 @@ The AI handles conversation and tool selection. Dataverse stores the record. Pow
 5. A subsequent agent lookup returned the saved ticket's status and routing values.
 6. A Power BI snapshot showed **12 tickets: 5 New, 5 In Progress, 2 Resolved**. These are lab snapshot counts, not production metrics.
 
-## Architecture lessons
-
-- **Skills and tools serve different purposes.** Skills describe behavior; connectors perform operations. Naming a tool in an instruction does not connect it.
-- **Creation and routing finish separately.** A successful create response does not establish that routing is complete.
-- **Use actual Dataverse choice values.** The schema review records the option mappings; numeric values are not inferred from label order.
-- **Current status is not change history.** The lookup can report saved values. Explaining changes across chats requires earlier values or an audit/history source.
-- **A routing label is not an access control.** Authorization depends on identity, connection execution context, and Dataverse permissions.
-- **Reporting requires deliberate aggregation.** Auto-generated counts of Category or Routed do not necessarily represent ticket totals. The final status chart used Ticket Number aggregation.
-
 ## Repository contents
 
 - `docs/index.html` — keyboard-accessible slideshow with all saved screenshots, captions, and full-resolution links; also works locally.
