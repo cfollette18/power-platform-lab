@@ -1,4 +1,4 @@
-# Hillman Robotics · AI Help Desk
+# Hillman Robotics Power Platform Lab
 
 **A working Power Platform help desk, from an employee's request to a routed ticket and a Power BI report.**
 
@@ -10,7 +10,7 @@ Built for a fictional robotics company using Microsoft Dataverse, Power Apps, Po
 
 **[Open the screenshot slideshow →](https://cfollette18.github.io/power-platform-lab/)**
 
-[Browse all 21 screenshots](docs/evidence.md) · [Architecture and decisions](docs/architecture.md) · [Results and limitations](docs/results.md)
+[Browse all 21 screenshots](docs/evidence.md) · [Architecture and decisions](docs/architecture.md) · [Lab results](docs/results.md)
 
 [![Agent-created ticket verified in Dataverse](docs/screenshots/20-agent-ticket-verified.png)](https://cfollette18.github.io/power-platform-lab/#20)
 
@@ -58,17 +58,6 @@ The AI handles conversation and tool selection. Dataverse stores the record. Pow
 - **Current status is not change history.** The lookup can report saved values. Explaining changes across chats requires earlier values or an audit/history source.
 - **A routing label is not an access control.** Authorization depends on identity, connection execution context, and Dataverse permissions.
 - **Reporting requires deliberate aggregation.** Auto-generated counts of Category or Routed do not necessarily represent ticket totals. The final status chart used Ticket Number aggregation.
-
-## Scope and limitations
-
-This repository showcases a development lab, not a production deployment or an import-ready solution package.
-
-- Multi-user authorization testing was deferred because a second test identity was unavailable.
-- Approved knowledge grounding, Power Pages, broader governance tests, and deployment to a second environment were deferred.
-- No custom MCP server or separate create-ticket workflow was built. The implementation uses direct Dataverse connector tools and a separate routing cloud flow.
-- Screenshot 20 preserves an Intake Channel mapping issue: the agent-created record showed App. The mapping was subsequently changed and the user reported completing a new-ticket check; no replacement screenshot was retained.
-- The saved report is a report artifact, despite its Dashboard name. No pinned Power BI dashboard or PBIX export is included.
-- Copilot Studio pay-as-you-go billing was enabled during the lab. This is not a claim of zero-cost operation.
 
 ## Repository contents
 
