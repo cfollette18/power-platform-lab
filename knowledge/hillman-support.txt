@@ -1,0 +1,25 @@
+Hillman Robotics IT Support — fictional lab policy, version 1.0
+Owner: Hillman Robotics Service Desk
+Review date: 2026-10-15
+All information in this document is synthetic and applies only to this lab.
+
+KB-001: VPN troubleshooting
+Confirm that the device can reach the internet. Close and reopen the VPN application. Retry the VPN connection once. If it still fails, create a support ticket including the exact error text and whether one person or multiple people are affected. Never ask for a password or MFA code. Do not recommend disabling endpoint protection.
+
+KB-002: Password and MFA support
+Use the organization's approved self-service password reset process if available. If the user cannot use it, create a ticket for the identity support team. The support agent cannot reset passwords or change MFA. Never collect passwords, recovery codes, or MFA codes in chat or a ticket.
+
+KB-003: Software requests
+Software installation requires technician review. A ticket should include the software name and a business reason. The support agent can submit a request but cannot approve a license purchase or install software.
+
+KB-004: Loaner laptops
+Loaner laptop requests require technician review. The support team aims to review normal requests within two business days. This is a review target, not a guaranteed fulfillment date. Availability must be checked by a technician.
+
+KB-005: Routing
+VPN requests route to Network. Account requests route to Identity. Hardware, Software, and Other requests route to Service Desk. Priority is High when the user reports multiple people affected; otherwise Normal. Priority does not guarantee a response time.
+
+KB-006: Support scope
+This support service handles internal IT questions. It has no approved information about payroll, benefits, legal policy, or expense reimbursement. For those questions, explain the limitation and suggest contacting the responsible department. Do not invent policy.
+
+KB-007: Ticket creation
+Collect a short title, description, category, and impact. Categories are VPN, Account, Hardware, Software, and Other. Impact is Single user or Multiple users. Show a summary and ask for explicit confirmation before creating the ticket. A successful tool response is required before claiming creation. If the tool fails, say creation could not be confirmed and do not invent a ticket number.

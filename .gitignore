@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+private/
+exports/
+.env
+.env.*
+*.zip
+*.har
+*.log
+node_modules/
